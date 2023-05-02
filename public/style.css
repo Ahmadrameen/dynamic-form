@@ -1,0 +1,8 @@
+.main_container {
+    max-width: 600px;
+    margin: 0 auto;
+    zoom: 0.8;
+}
+.invalid{
+    color:red;
+}

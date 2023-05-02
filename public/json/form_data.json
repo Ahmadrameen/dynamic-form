@@ -1,0 +1,476 @@
+{
+    "data": {
+        "fields": [
+            {
+                "id": 1,
+                "data_type": "string",
+                "slug": "input",
+                "label": "First Input",
+                "element": {
+                    "type": "input",
+                    "help": null,
+                    "labelHelp": {
+                        "help": null
+                    },
+                    "params": {
+                        "width": 10,
+                        "maxLength": 150
+                    }
+                },
+                "validation": [
+                    {
+                        "rule": "required",
+                        "type": "warning",
+                        "message": "Поле :attribute обязательно.",
+                        "params": []
+                    },
+                    {
+                        "rule": "numeric",
+                        "type": "error",
+                        "message": "Значение поля :attribute должно быть целым числом.",
+                        "params": []
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "data_type": "integer",
+                "slug": "extended_select",
+                "label": "First extended select",
+                "element": {
+                    "type": "extended_select",
+                    "help": null,
+                    "labelHelp": {
+                        "help": null
+                    },
+                    "values": [
+                        {
+                            "label": "Est sit reprehenderit quibusdam nesciunt suscipit non possimus.",
+                            "value": 6555706
+                        },
+                        {
+                            "label": "Et voluptate provident itaque natus.",
+                            "value": 70772
+                        },
+                        {
+                            "label": "Officiis impedit voluptatum facere.",
+                            "value": 690
+                        },
+                        {
+                            "label": "Voluptatem incidunt fugiat error.",
+                            "value": 16813914
+                        },
+                        {
+                            "label": "Nam voluptatem non nihil aliquam accusamus placeat.",
+                            "value": 4007756
+                        },
+                        {
+                            "label": "Eaque ut quidem dolor illum qui illo neque.",
+                            "value": 5829
+                        },
+                        {
+                            "label": "Magni sint inventore doloremque ipsam modi dolorem et.",
+                            "value": 917829
+                        },
+                        {
+                            "label": "Vero earum unde amet eum cum rerum quia dolore.",
+                            "value": 9846
+                        },
+                        {
+                            "label": "Consequuntur quam nesciunt magnam iure est.",
+                            "value": 455919034
+                        },
+                        {
+                            "label": "Rem deleniti et voluptatem rerum.",
+                            "value": 791
+                        }
+                    ],
+                    "value": null,
+                    "params": {
+                        "width": 5
+                    }
+                },
+                "validation": [
+                    {
+                        "rule": "required",
+                        "type": "error",
+                        "message": "Поле :attribute обязательно.",
+                        "params": []
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "data_type": "string",
+                "slug": "input",
+                "label": "Second input",
+                "element": {
+                    "type": "input",
+                    "help": null,
+                    "labelHelp": {
+                        "help": null
+                    },
+                    "params": {
+                        "width": 4,
+                        "maxLength": 255
+                    }
+                },
+                "validation": [
+                    {
+                        "rule": "required",
+                        "type": "warning",
+                        "message": "Поле :attribute обязательно.",
+                        "params": []
+                    },
+                    {
+                        "rule": "regex",
+                        "type": "info",
+                        "message": "Значение поля :attribute имеет некорректный формат.",
+                        "params": {
+                            "pattern": "/est/"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "data_type": "integer",
+                "slug": "images",
+                "label": "First image",
+                "element": {
+                    "type": "image_uploader",
+                    "help": null,
+                    "labelHelp": {
+                        "help": null
+                    },
+                    "params": {
+                        "width": 9,
+                        "min": 5,
+                        "max": 5,
+                        "maxFileSize": 5242880,
+                        "size": {
+                            "height": 480,
+                            "width": 640
+                        }
+                    }
+                },
+                "validation": []
+            },
+            {
+                "id": 5,
+                "data_type": "integer",
+                "slug": "images",
+                "label": "Second image",
+                "element": {
+                    "type": "image_uploader",
+                    "help": "Natus unde deleniti minima iure ut aut. Harum architecto suscipit sequi voluptatem et beatae ut. Officiis odio architecto nisi ipsum. Delectus reiciendis dolores voluptate ut.",
+                    "labelHelp": {
+                        "help": null
+                    },
+                    "params": {
+                        "width": 6,
+                        "min": 3,
+                        "max": 6,
+                        "maxFileSize": 3145728,
+                        "size": {
+                            "height": 480,
+                            "width": 640
+                        }
+                    }
+                },
+                "validation": []
+            },
+            {
+                "id": 6,
+                "data_type": "integer",
+                "slug": "select",
+                "label": "First select",
+                "element": {
+                    "type": "select",
+                    "help": null,
+                    "labelHelp": {
+                        "help": null
+                    },
+                    "values": [
+                        {
+                            "label": "Voluptate vel quaerat ea accusantium.",
+                            "value": 77093018
+                        },
+                        {
+                            "label": "Consequuntur eos voluptatibus harum quo amet aut vero.",
+                            "value": 9
+                        },
+                        {
+                            "label": "Distinctio quaerat occaecati eligendi vel quos.",
+                            "value": 9185
+                        },
+                        {
+                            "label": "Maiores veniam fugit dolores.",
+                            "value": 8441
+                        }
+                    ],
+                    "value": null,
+                    "params": {
+                        "width": 3
+                    }
+                },
+                "validation": [
+                    {
+                        "rule": "required",
+                        "type": "warning",
+                        "message": "Поле :attribute обязательно.",
+                        "params": []
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "data_type": "integer",
+                "slug": "select",
+                "label": "Second select",
+                "element": {
+                    "type": "select",
+                    "help": "Aut pariatur quasi dolores ex exercitationem. Sunt aut ea nisi rerum. Eveniet itaque nihil et molestias repudiandae. Perferendis maxime quaerat quae.",
+                    "labelHelp": {
+                        "help": null
+                    },
+                    "values": [
+                        {
+                            "label": "Ipsa distinctio temporibus iusto consequatur non.",
+                            "value": 421187
+                        },
+                        {
+                            "label": "Id quaerat illo amet et eum.",
+                            "value": 10680
+                        },
+                        {
+                            "label": "Dolorum nulla commodi quasi est.",
+                            "value": 20
+                        }
+                    ],
+                    "value": null,
+                    "params": {
+                        "width": 3
+                    }
+                },
+                "validation": [
+                    {
+                        "rule": "required",
+                        "type": "warning",
+                        "message": "Поле :attribute обязательно.",
+                        "params": []
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "data_type": "integer",
+                "slug": "extended_select",
+                "label": "Second extended select",
+                "element": {
+                    "type": "extended_select",
+                    "help": null,
+                    "labelHelp": {
+                        "help": null
+                    },
+                    "values": [
+                        {
+                            "label": "Doloremque suscipit dicta quam blanditiis cum.",
+                            "value": 63591031
+                        },
+                        {
+                            "label": "Assumenda iste nam excepturi fuga architecto dolores fugit.",
+                            "value": 218443
+                        },
+                        {
+                            "label": "Sequi aut reiciendis voluptatum soluta aspernatur enim dolores.",
+                            "value": 47707523
+                        },
+                        {
+                            "label": "Odio omnis et libero soluta est eligendi et quis.",
+                            "value": 9
+                        },
+                        {
+                            "label": "Ut minus omnis maxime eius eos et iure.",
+                            "value": 544762
+                        },
+                        {
+                            "label": "Perspiciatis non qui asperiores amet voluptatibus.",
+                            "value": 923366
+                        },
+                        {
+                            "label": "Corporis aut qui non culpa sed.",
+                            "value": 0
+                        },
+                        {
+                            "label": "Autem voluptas nostrum sit placeat aut quia.",
+                            "value": 8280
+                        },
+                        {
+                            "label": "Fugit dolorum voluptatem eligendi aut sit non.",
+                            "value": 6815
+                        },
+                        {
+                            "label": "Consequatur dicta omnis harum explicabo ullam doloremque.",
+                            "value": 11870242
+                        },
+                        {
+                            "label": "Delectus sit excepturi sint fugit repudiandae voluptatum.",
+                            "value": 141492
+                        }
+                    ],
+                    "value": null,
+                    "params": {
+                        "width": 4
+                    }
+                },
+                "validation": [
+                    {
+                        "rule": "required",
+                        "type": "error",
+                        "message": "Поле :attribute обязательно.",
+                        "params": []
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "data_type": "integer",
+                "slug": "extended_select",
+                "label": "Third extended select",
+                "element": {
+                    "type": "extended_select",
+                    "help": null,
+                    "labelHelp": {
+                        "help": null
+                    },
+                    "values": [
+                        {
+                            "label": "Qui sit reiciendis id occaecati ullam est.",
+                            "value": 85619474
+                        },
+                        {
+                            "label": "Possimus iure officia ut et ratione quia laudantium.",
+                            "value": 77
+                        },
+                        {
+                            "label": "Velit adipisci sit repudiandae fugit eveniet.",
+                            "value": 6237368
+                        },
+                        {
+                            "label": "Repellat et provident recusandae laborum.",
+                            "value": 42
+                        },
+                        {
+                            "label": "Placeat autem eos quod quo.",
+                            "value": 1499
+                        },
+                        {
+                            "label": "Dolorem inventore et aliquam quibusdam molestiae dolores quas.",
+                            "value": 718760
+                        },
+                        {
+                            "label": "Enim possimus fuga et enim qui.",
+                            "value": 437
+                        },
+                        {
+                            "label": "Eligendi laborum sunt eveniet esse accusamus tenetur.",
+                            "value": 7
+                        },
+                        {
+                            "label": "Et id molestias odio quisquam ea voluptatem eos.",
+                            "value": 27633
+                        },
+                        {
+                            "label": "Quis hic facilis dignissimos assumenda.",
+                            "value": 55843
+                        },
+                        {
+                            "label": "Optio enim quia et quam autem.",
+                            "value": 494996349
+                        },
+                        {
+                            "label": "Recusandae est excepturi est voluptate rerum.",
+                            "value": 89
+                        },
+                        {
+                            "label": "Provident ex repudiandae eos.",
+                            "value": 6974
+                        }
+                    ],
+                    "value": null,
+                    "params": {
+                        "width": 6
+                    }
+                },
+                "validation": [
+                    {
+                        "rule": "required",
+                        "type": "warning",
+                        "message": "Поле :attribute обязательно.",
+                        "params": []
+                    }
+                ]
+            }
+        ],
+        "form": {
+            "id": "6bac48a8-300e-493e-999b-9988196d0028",
+            "fieldsets": [
+                {
+                    "label": "Dolorem nihil debitis et temporibus.",
+                    "position": 79,
+                    "fields": [
+                        {
+                            "id": 1,
+                            "position": 69
+                        },
+                        {
+                            "id": 2,
+                            "position": 43
+                        },
+                        {
+                            "id": 3,
+                            "position": 66
+                        }
+                    ]
+                },
+                {
+                    "label": "Ab et pariatur ullam eos harum excepturi.",
+                    "position": 85,
+                    "fields": [
+                        {
+                            "id": 4,
+                            "position": 42
+                        },
+                        {
+                            "id": 5,
+                            "position": 5
+                        },
+                        {
+                            "id": 6,
+                            "position": 13
+                        }
+                    ]
+                },
+                {
+                    "label": "Repudiandae incidunt cum minima itaque.",
+                    "position": 89,
+                    "fields": [
+                        {
+                            "id": 7,
+                            "position": 3
+                        },
+                        {
+                            "id": 8,
+                            "position": 45
+                        },
+                        {
+                            "id": 9,
+                            "position": 58
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
